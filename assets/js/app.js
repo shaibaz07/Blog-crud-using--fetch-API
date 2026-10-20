@@ -330,6 +330,8 @@ function onRemove(ele) {
     .finally(() =>{
         hideSpinner()
     })
+        }else{
+            hideSpinner()
         }
     });
 }
